@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #ff5722;
+    --off-white: #F3F4F6;
     --dark-grey: #585858;
 }
 
@@ -61,6 +62,7 @@ hr {
     color: white;
     display: flex;
     width: 100%;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .navigation .nav-brand {
@@ -96,6 +98,39 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
     color: var(--dark-grey);
 }
 
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section-ow {
+    background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
