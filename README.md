@@ -2,7 +2,7 @@
 
 Hey, Welcome to my portfolio
 
-This site is tells about me, my contact information and also to show my projects
+This site is tells about me and also to show my projects
 
 For now, I know:
 
