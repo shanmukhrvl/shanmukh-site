@@ -16,8 +16,6 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    position: relative;
-    min-height: 100vh;
 }
 
 hr {
@@ -36,20 +34,31 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    display: inline-block;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+    transition: all 0.1s;
+    transform: scale(0.98);
+}
+
+.link-primary:hover {
+    transform: scale(1);
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border:1px solid var(--primary-color);
+    transition: all 0.1s;
+    transform: scale(0.98);
+}
+
+.link-secondary:hover {
+    transform: scale(1);
 }
 
 .list-non-bullet {
@@ -129,6 +138,8 @@ hr {
 
 .section h1 {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
 }
 
 .section-ow {
@@ -169,4 +180,13 @@ article {
 .projects .date {
     margin-bottom: -0.7rem;
     font-size: 0.8rem;    
- }
+}
+
+.blogs .blog-heading {
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+.blogs .container {
+    margin-top: 400px;
+}
