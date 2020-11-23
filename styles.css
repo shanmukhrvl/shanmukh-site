@@ -18,10 +18,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-hr {
-    margin: 2rem 0;
-}
-
 .container {
     padding: 0rem 1rem;
 }
@@ -84,7 +80,7 @@ hr {
     align-items: center;
     justify-content: start;
     color: var(--primary-color);
-    text-shadow: 1px 1px 2p x var(--off-white);
+    text-shadow: 2px 2px 1px var(--off-white);
 }
 
 .navigation .list-non-bullet {
@@ -120,14 +116,17 @@ hr {
     margin: auto;
 }
 
-.hero .hero-heading {
-    text-align: center;
-    padding-top: 1rem;
-    color: var(--dark-grey);
+.hero .hero-description {
+    font-size: 1.2rem;
 }
 
-.hero .hero-heading .heading-inverted {
+.hero .hero-name {
     color: var(--primary-color);
+}
+
+.hero .hero-designation {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
 }
 
 .section {
