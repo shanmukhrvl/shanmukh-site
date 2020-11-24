@@ -198,8 +198,7 @@ article {
 .footer .link {
     color: var(--dark-grey);
     display: inline-block;
-    margin: 0.2rem 0.5rem 0;
-    padding: 0 0.5rem;
+    margin-top: 0.2rem;
     transition: all 0.1s;
     transform: scale(0.98);
 }
@@ -218,9 +217,22 @@ article {
     margin: 0;
 }
 
+.footer .list-item-inline {
+    padding: 0;
+}
+
 .footer .link:hover {
     color: var(--primary-color);
     transform: scale(1.1);
+}
+
+.footer ul li::after {
+    content: "\00b7";
+    color: var(--primary-color);
+}
+
+.footer ul li:last-child::after {
+    content: "";
 }
 
 .projects .date {
