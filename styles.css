@@ -242,17 +242,24 @@ article {
     font-size: 0.8rem;    
 }
 
+.projects .list-non-bullet {
+    padding-left: 0;
+}
+
+.projects li {
+    background-color: var(--off-white);
+    border-radius: 0.5rem;
+}
+
 /* Blogs Style Section */
 
 .blogs {
     
 }
 
-.blogs ul li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50rem;
+.blogs ul {
+    margin-top: 3rem;
+    padding-left: 0;
 }
 
 .blogs .blog-header {
@@ -267,7 +274,7 @@ article {
     color: var(--dark-grey);
 }
 
-.blogs .container {
+.blogs article {
     padding: 0 1rem 2.5rem 1rem;
     margin: 1rem auto;
     border-radius: 0.5rem;
