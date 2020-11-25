@@ -302,3 +302,7 @@ code {
     color: var(--dark-grey);
     padding: 0.3rem 0;
 }
+
+.blogs h2 {
+    text-align: center;
+}
