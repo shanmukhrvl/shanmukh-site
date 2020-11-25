@@ -235,16 +235,41 @@ article {
     content: "";
 }
 
+/* Projects Style Section */
+
 .projects .date {
     margin-bottom: -0.7rem;
     font-size: 0.8rem;    
 }
 
-.blogs .blog-heading {
-    text-align: center;
+/* Blogs Style Section */
+
+.blogs {
+    
+}
+
+.blogs ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+
+.blogs .blog-header {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+}
+
+.blogs .blog-description {
+    margin: -1.5rem 1rem;
+    padding: 0;
     color: var(--dark-grey);
 }
 
 .blogs .container {
-    margin-top: 400px;
+    padding: 0 1rem 2.5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    background-color: var(--off-white);
 }
