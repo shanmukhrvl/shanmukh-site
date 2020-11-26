@@ -235,6 +235,11 @@ article {
     content: "";
 }
 
+.pages-header {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+}
+
 /* Projects Style Section */
 
 .projects .date {
@@ -253,9 +258,6 @@ article {
 
 /* Blogs Style Section */
 
-.blogs {
-    
-}
 
 .blogs ul {
     margin-top: 3rem;
@@ -303,6 +305,6 @@ code {
     padding: 0.3rem 0;
 }
 
-.blogs h2 {
+.blogs h2, .projects h2 {
     text-align: center;
 }
