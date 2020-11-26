@@ -243,7 +243,7 @@ article {
 /* Projects Style Section */
 
 .projects .date {
-    margin-bottom: -0.7rem;
+    margin: 0 0 0.5rem;
     font-size: 0.8rem;    
 }
 
