@@ -117,7 +117,7 @@ body {
 }
 
 .navigation .link {
-    color: var(--primary-color);
+    color: var(--dark-grey);
     display: inline-block;
     margin: 0.2rem 0.5rem 0;
     padding: 0 0.5rem;
@@ -125,11 +125,13 @@ body {
     transform: scale(0.98);
 }
 
-.navigation .link-active {
+.navigation .link-active {   
+    color: var(--primary-color); 
     font-weight: bold;
 }
 
 .navigation .link:hover {
+    color: var(--primary-color);
     transform: scale(1.1);
 }
 
