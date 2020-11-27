@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poiret+One&display=swap');
 
 :root {
     --primary-color: #ff5722;
@@ -87,14 +87,13 @@ body {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.7rem;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: start;
     color: var(--primary-color);
-    text-shadow: 2px 2px 1px var(--off-white);
 }
 
 @media (max-width: 450px) {
