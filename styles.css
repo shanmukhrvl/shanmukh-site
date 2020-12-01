@@ -243,7 +243,7 @@ article {
 /* Projects Style Section */
 
 .projects .date {
-    margin: 0 0 0.5rem;
+    margin: 0 0 0;
     font-size: 0.8rem;    
 }
 
@@ -254,6 +254,10 @@ article {
 .projects li {
     background-color: var(--off-white);
     border-radius: 0.5rem;
+}
+
+.projects article .link {
+    margin-top: 0.5rem;
 }
 
 /* Blogs Style Section */
