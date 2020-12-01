@@ -16,6 +16,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .container {
@@ -45,11 +46,10 @@ body {
     border-radius: 0.5rem;
     color:white;
     transition: all 0.1s;
-    transform: scale(0.98);
 }
 
 .link-primary:hover {
-    transform: scale(1);
+
 }
 
 .link-secondary {
@@ -57,11 +57,10 @@ body {
     border-radius: 0.5rem;
     border:1px solid var(--primary-color);
     transition: all 0.1s;
-    transform: scale(0.98);
 }
 
 .link-secondary:hover {
-    transform: scale(1);
+
 }
 
 .list-non-bullet {
