@@ -199,11 +199,10 @@ article {
     transform: scale(0.98);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .footer .link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin: 0.3rem;
+        padding: 0.3rem;
     }
 }
 
