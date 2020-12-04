@@ -48,19 +48,11 @@ body {
     transition: all 0.1s;
 }
 
-.link-primary:hover {
-
-}
-
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border:1px solid var(--primary-color);
     transition: all 0.1s;
-}
-
-.link-secondary:hover {
-
 }
 
 .list-non-bullet {
@@ -91,14 +83,18 @@ body {
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: start;
-    color: var(--primary-color);
+    justify-content: start;    
 }
 
 @media (max-width: 450px) {
     .navigation .nav-brand{
         justify-content: center;
     }
+}
+
+.nav-brand-link {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .navigation .list-non-bullet {
