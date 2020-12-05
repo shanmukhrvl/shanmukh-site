@@ -291,6 +291,10 @@ code {
     padding: 0.2rem 0.3rem;
 }
 
+.blog-content {
+    line-height: 1.7rem;
+}
+
 .blog-content h3 {
     color: var(--dark-grey);
     text-decoration: underline;
